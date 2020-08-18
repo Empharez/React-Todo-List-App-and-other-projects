@@ -10,6 +10,7 @@ import jokesData from './jokesData'
 import Product from './components/Products';
 import products from './vschoolProducts'
 import CheckState from './components/states';
+import EventClick from './components/Event';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <WordClock/>
 
       <TodoList/>
+      <EventClick/>
       <CheckState/>      
 
       <div>

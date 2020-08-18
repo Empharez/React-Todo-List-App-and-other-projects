@@ -8,11 +8,11 @@ class TodoList extends Component{
   constructor(){
     super()
     this.state = {
-      todos: []
+      todos: todosData
     }
   }
   render(){
-    const todoComponents = todosData.map(todo => {
+    const todoComponents = this.state.todos.map(todo => {
       return(
         <TodoItem key={todo.id} todo={todo}/>
       ) 
